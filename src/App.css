@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.row {
+  display: flex;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.column {
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 8px;
+  margin: 0;
 }
